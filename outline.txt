@@ -1,0 +1,12 @@
+https://wireframe.cc/97muAJ
+
+Need:
+  Header
+    Name on top left
+    Three links in top right
+  Body
+    h1 tag for Software Developer to be
+    clickable list: Python, analyst, dashboard, web
+    content that appears on right depending on what on list is clicked
+  Footer
+    Name, contact info
