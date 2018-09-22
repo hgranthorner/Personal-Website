@@ -10,11 +10,11 @@
   <body>
     <header class="container header-bar">
       <h1 id="myName">Grant Horner</h1>
-      <div id="navBar">
+      <div class="navBar">
         <ul>
           <li>HOME</li>
-          <li>ABOUT</li>
-          <li>CONTACT</li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
         </ul>
       </div>
     </header>
@@ -22,25 +22,41 @@
       <h1 id="banner-text">Software Developer In Training</h1>
     </section>
     <section class="container" id="clickablelist">
-      <div class="specialty-list">
+      <div class="specialty-list" onclick="location.href='#';" style:"cursor: pointer;">
         <h3>Specialties</h3>
-        <ul>
-          <li>
-            <p>Front End</p>
-          </li>
-          <li>
-            <p>Back End</p>
-          </li>
-          <li>
-            <p>Databases</p>
-          </li>
-          <li>
-            <p>Data Analysis</p>
-          </li>
+        <form>
+          <ul>
+            <li>
+              <a href="#" onclick=changeVisibility("front-end")>Front End</a>
+            </li>
+            <li>
+              <a href="#" onclick=changeVisibility("back-end")>Back End</a>
+            </li>
+            <li>
+              <a href="#" onclick=changeVisibility("databases")>Databases</a>
+            </li>
+            <li>
+              <a href="#" onclick=changeVisibility("dataAnalysis")>Data Analysis</a>
+            </li> 
+        </form>
       </div>
       <div class="dynamiccontent">
-        <a href="#"></a>
+        <div id="hiddenDiv" class="hidden">
+          <p id="front-end">Up to date with the newest HTML5 and CSS3 syntax, Grant is comfortable designing and developing websites, working with the customer to ensure that it meets their specifications</p>
+          <p id="back-end">Grant has made node.js backend structures, and is proficient in connecting databases to his websites.</p>
+          <p id="databases">Before Grant began his web development career, he worked with Microsoft SQL Server databases.</p>
+          <p id="dataAnalysis">Grant began his software engineering career as an analyst at an energy consulting firm</p>
+        </div>
       </div>
     </section>
+    <footer class="container footer-bar">
+      <div class="navBar">
+        <ul>
+          <li>HOME</li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

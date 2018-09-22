@@ -10,3 +10,11 @@ Need:
     content that appears on right depending on what on list is clicked
   Footer
     Name, contact info
+
+    
+About
+  "Slider" of images on left, writing on right
+
+  
+Contact
+  Contact info, input form that sends email to me?
